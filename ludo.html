@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	.outer{ height: 800px;
+		width: 800px;
+		 border: 2px black ridge;}
+
+    .left{ height: 800px;
+    	width: 300px;
+    	background-color: white;
+    	float: left; }
+
+    	.medium{ height: 800px;
+    	width: 200px;
+    	background-color: white;
+    	float: left; }
+
+        .right{
+        	height: 800px;
+        	width: 300px;
+        background-color: white;
+        float: left;
+
+        }
+
+        .leftup{ height: 300px;
+        	width: 300px;
+        	background-color: yellow;
+        	position: relative;
+        	bottom: 1px;
+        	right: 1px;
+
+        }
+
+        .leftmid{ height: 200px;
+        	width: 300px;
+        	background-color: white;
+        	border: 1px solid black;
+
+        }
+
+        .leftdown{ height: 300px;
+        	width: 300px;
+        	background-color: green;
+        	position: relative;
+        	right: 1px;
+
+        }
+
+.midup{ height: 300px;
+        	width: 200px;
+        	background-color: white;
+        	
+
+        }
+
+        .midmid{ height: 200px;
+        	width: 200px;
+        	background-color: white;
+        	border: 1px solid black;
+
+        }
+
+        .middown{ height: 300px;
+        	width: 200px;
+        	background-color: white;
+        	
+
+        }
+
+.rightup{ height: 300px;
+        	width: 300px;
+        	background-color: red;
+        	position: relative;
+        	bottom: 1px;
+
+        }
+
+        .rightmid{ height: 200px;
+        	width: 300px;
+        	background-color: white;
+
+        }
+
+        .rightdown{ height: 300px;
+        	width: 300px;
+        	background-color: blue;
+
+        }
+
+       .leftupbox1{
+       	position: relative;
+       	left: 50px;
+       	top: 40px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .leftupbox2{
+       	position: relative;
+       	left: 180px;
+       	bottom: 24px;
+        border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .leftupbox3{
+       	position: relative;
+       	left: 50px;
+       	top: 40px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .leftupbox4{
+       	position: relative;
+       	left: 180px;
+       	bottom: 24px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+
+
+
+
+        .leftdownbox1{
+       	position: relative;
+       	left: 50px;
+       	top: 40px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .leftdownbox2{
+       	position: relative;
+       	left: 180px;
+       	bottom: 24px;
+        border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .leftdownbox3{
+       	position: relative;
+       	left: 50px;
+       	top: 40px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .leftdownbox4{
+       	position: relative;
+       	left: 180px;
+       	bottom: 24px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+
+       
+        .rightupbox1{
+       	position: relative;
+       	left: 50px;
+       	top: 40px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .rightupbox2{
+       	position: relative;
+       	left: 180px;
+       	bottom: 24px;
+        border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .rightupbox3{
+       	position: relative;
+       	left: 50px;
+       	top: 40px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .rightupbox4{
+       	position: relative;
+       	left: 180px;
+       	bottom: 24px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+
+
+         .rightdownbox1{
+       	position: relative;
+       	left: 50px;
+       	top: 40px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .rightdownbox2{
+       	position: relative;
+       	left: 180px;
+       	bottom: 24px;
+        border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .rightdownbox3{
+       	position: relative;
+       	left: 50px;
+       	top: 40px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+        .rightdownbox4{
+       	position: relative;
+       	left: 180px;
+       	bottom: 24px;
+	    border-radius: 60px; 
+       	border:2px solid black;
+       	height: 60px;
+       	width: 60px;
+       	background-color: white;
+       }
+
+.leftmidvertical{
+	height: 198px;
+	width: 48px;
+	border-left: 1px solid black;
+	float: left;
+
+}
+
+.leftmidverticalbox1{ height: 65.3px;
+	width: 48px;
+	border-bottom: 1px solid black;
+	background-color: white;
+
+}
+   
+   .leftmidverticalbox2{ height: 65.3px;
+	width: 48px;
+	border-bottom: 1px solid black;
+	background-color: white;
+
+}    
+.leftmidverticalbox3{ height: 65.3px;
+	width: 48px;
+	border-bottom: 1px solid black;
+	background-color: white;
+
+}
+      
+
+
+
+
+.leftmidverticalbox1color{ height: 65.3px;
+	width: 48px;
+	border-bottom: 1px solid black;
+	background-color: yellow;
+
+}
+
+
+
+.leftmidverticalbox2color{ height: 65.3px;
+	width: 48px;
+	border-bottom: 1px solid black;
+	background-color: yellow;
+
+}
+
+.leftmidverticalbox3bluecolor{ height: 65.3px;
+	width: 48px;
+	border-bottom: 1px solid black;
+	background-color: blue;
+
+}
+
+.leftmidverticalbox2bluecolor{ height: 65.3px;
+	width: 48px;
+	border-bottom: 1px solid black;
+	background-color: blue;
+
+}
+
+
+.middownverticalbox{
+	height: 296px;
+	width: 64px;
+	float: left;
+	border-left: 1px solid black;
+}
+
+
+.midverticalboxpart1{
+	height:49.3px; 
+	width: 64px;
+	border-bottom: 1px solid black;
+}
+
+.midverticalboxpart2{
+	height:49.3px; 
+	width: 64px;
+	border-bottom: 1px solid black;
+}
+
+.midverticalboxpart3{
+	height:49.3px; 
+	width: 64px;
+	border-bottom: 1px solid black;
+}
+
+.midverticalboxpart4{
+	height:49.3px; 
+	width: 64px;
+	border-bottom: 1px solid black;
+}
+
+.midverticalboxpart5{
+	height:49.3px; 
+	width: 64px;
+	border-bottom: 1px solid black;
+}
+
+.midverticalboxpart6{
+	height:49.3px; 
+	width: 64px;
+	
+}
+
+.midverticalboxpart4color{
+	height:49.3px; 
+	width: 64px;
+	background-color: green;
+	border-bottom: 1px solid black;
+	
+}
+
+.midverticalboxpart2color{
+	height:49.3px; 
+	width: 64px;
+	background-color: red;
+	border-bottom: 1px solid black;
+	
+}
+
+
+.arrowleft{
+	height: 0;
+	width: 0;
+	border-top: 100px solid transparent;
+	border-bottom: 100px solid transparent;
+	border-right: 100px solid blue;
+position: relative;
+left: 100px;
+bottom: 3px;
+
+}
+
+.arrowdown{
+	height: 0;
+	width: 0;
+	border-top: 100px solid red;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+position: relative;
+
+bottom:502px;
+
+}
+
+
+.arrowup{
+  height: 0px;
+  width: 0px;
+  border-bottom: 100px solid green;
+  border-left: 103px solid transparent;
+  border-right: 100px solid transparent;
+  position: relative;
+  bottom:100px;
+
+}
+
+
+.arrowright{
+   height: 0px;
+  width: 0px;
+  border-left: 100px solid yellow;
+  border-top: 103px solid transparent;
+  border-bottom: 100px solid transparent;
+  position: relative;
+  bottom:300px;
+
+
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+
+
+<div class="outer">
+
+<div class="left">
+	
+	<div class="leftup">
+		
+		<div class="leftupbox1"></div>
+		<div class="leftupbox2"></div>
+		<div class="leftupbox3"></div>
+		<div class="leftupbox4"></div>
+
+	</div>
+
+	<div class="leftmid">
+
+<div class="leftmidvertical">  <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+
+
+ </div>
+
+
+<div class="leftmidvertical">  <div class="leftmidverticalbox1color"></div>
+
+                                 <div class="leftmidverticalbox2color"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+  </div>
+
+
+<div class="leftmidvertical">   <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2color"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+ </div>
+
+
+<div class="leftmidvertical">  <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2color"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+  </div>
+
+
+
+<div class="leftmidvertical">   <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2color"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+ </div>
+
+
+<div class="leftmidvertical">   <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2color"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+ </div>
+
+
+
+
+	 </div>
+		
+   
+
+
+	<div class="leftdown">
+		
+		<div class="leftdownbox1"></div>
+		<div class="leftdownbox2"></div>
+		<div class="leftdownbox3"></div>
+		<div class="leftdownbox4"></div>
+
+	</div>
+
+</div>
+
+
+<div class="medium">
+	
+<div class="midup"> 
+	                  <div class="middownverticalbox">
+
+	                     	<div class="midverticalboxpart1"></div>
+	                     	<div class="midverticalboxpart2"></div>
+	              	     	<div class="midverticalboxpart3"></div>
+	              	      	<div class="midverticalboxpart4"></div>
+	              	       	<div class="midverticalboxpart5"></div>
+	              	     	<div class="midverticalboxpart6"></div>       	    	    	
+
+
+	                  </div>
+
+                      <div class="middownverticalbox">
+                      	
+                           <div class="midverticalboxpart1"></div>
+	                     	<div class="midverticalboxpart2color"></div>
+	              	     	<div class="midverticalboxpart2color"></div>
+	              	      	<div class="midverticalboxpart2color"></div>
+	              	       	<div class="midverticalboxpart2color"></div>
+	              	     	<div class="midverticalboxpart2color"></div>       	    	    	
+                      </div>
+
+
+                      <div class="middownverticalbox">
+                      	
+                           <div class="midverticalboxpart1"></div>
+	                     	<div class="midverticalboxpart2color"></div>
+	              	     	<div class="midverticalboxpart3"></div>
+	              	      	<div class="midverticalboxpart4"></div>
+	              	       	<div class="midverticalboxpart5"></div>
+	              	     	<div class="midverticalboxpart6"></div>       	    	    	
+
+
+                      </div>   
+</div>
+
+
+
+
+
+
+	<div class="midmid">
+		<div class="arrowleft"></div>
+		<div class="arrowup"></div>
+		<div class="arrowright"></div>
+		<div class="arrowdown"></div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="middown">
+		
+
+<div class="middownverticalbox">
+	
+                            <div class="midverticalboxpart1"></div>
+	                     	<div class="midverticalboxpart2"></div>
+	              	     	<div class="midverticalboxpart3"></div>
+	              	      	<div class="midverticalboxpart4"></div>
+	              	       	<div class="midverticalboxpart4color"></div>
+	              	     	<div class="midverticalboxpart6"></div>       	    	    	
+
+</div>
+
+
+<div class="middownverticalbox">
+	
+                            <div class="midverticalboxpart4color"></div>
+	                     	<div class="midverticalboxpart4color"></div>
+	              	     	<div class="midverticalboxpart4color"></div>
+	              	      	<div class="midverticalboxpart4color"></div>
+	              	       	<div class="midverticalboxpart4color"></div>
+	              	     	<div class="midverticalboxpart6"></div>       	    	    	
+
+
+
+</div>
+
+
+<div class="middownverticalbox">
+	
+                            <div class="midverticalboxpart1"></div>
+	                     	<div class="midverticalboxpart2"></div>
+	              	     	<div class="midverticalboxpart3"></div>
+	              	      	<div class="midverticalboxpart4"></div>
+	              	       	<div class="midverticalboxpart5"></div>
+	              	     	<div class="midverticalboxpart6"></div>       	    	    	
+
+
+</div>
+
+	</div>
+
+</div>
+
+
+<div class="right">
+	
+	<div class="rightup">
+		
+		<div class="rightupbox1"></div>
+		<div class="rightupbox2"></div>
+		<div class="rightupbox3"></div>
+		<div class="rightupbox4"></div>
+
+
+	</div>
+
+	<div class="rightmid">  <div class="leftmidvertical">  <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2bluecolor"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+
+
+ </div>
+
+
+<div class="leftmidvertical">  <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2bluecolor"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+  </div>
+
+
+<div class="leftmidvertical">   <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2bluecolor"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+ </div>
+
+
+<div class="leftmidvertical">  <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2bluecolor"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+  </div>
+
+
+
+<div class="leftmidvertical">   <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2bluecolor"></div>
+                                  
+                                  <div class="leftmidverticalbox3bluecolor" ></div>
+ </div>
+
+
+<div class="leftmidvertical">   <div class="leftmidverticalbox1"></div>
+
+                                 <div class="leftmidverticalbox2"></div>
+                                  
+                                  <div class="leftmidverticalbox3" ></div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<div class="rightdown">
+		
+       <div class="rightdownbox1"></div>
+       <div class="rightdownbox2"></div>
+       <div class="rightdownbox3"></div>
+       <div class="rightdownbox4"></div>
+
+	</div>
+
+</div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
